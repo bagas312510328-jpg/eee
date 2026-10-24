@@ -1,0 +1,6 @@
+{
+  "name": "VibeHabit",
+  "description": "Tactile, playful cartoonish-minimalist habit tracker with habit vaults, weekly momentum analytics, trophy badges, and personalized vibes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
