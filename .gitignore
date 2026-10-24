@@ -1,0 +1,30 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# App build output
+app/build/
+build/
+*/build/
+
+# Keystore files (do not commit actual jks or generated debug.keystore)
+*.jks
+*.keystore
+!debug.keystore.base64
+
+# Keep the gradle wrapper jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Google Services
+google-services.json
+
+# Secrets
+.env
+!.env.example

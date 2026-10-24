@@ -24,6 +24,15 @@ VibeHabit helps you build consistent daily routines and track actionable tasks w
 3. Allow Gradle to sync and build project dependencies.
 4. Run the project on an Android device or emulator.
 
+## Build APK Otomatis via GitHub Actions
+
+Aplikasi ini sudah dilengkapi dengan alur kerja otomatis (CI/CD) GitHub Actions:
+1. Buka tab **Actions** pada repositori GitHub Anda.
+2. Pilih workflow **Build Android APK**.
+3. Klik tombol **Run workflow** (atau lakukan `git push` ke branch `main`/`master`).
+4. Setelah build selesai dengan centang hijau (Success), buka halaman run tersebut.
+5. Di bagian bawah (Artifacts), unduh file **VibeHabit-Debug-APK** dalam format `.zip`, lalu ekstrak untuk mendapatkan `app-debug.apk` yang siap dipasang langsung di HP Android.
+
 ## Tech Stack
 
 - Kotlin
